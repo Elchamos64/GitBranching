@@ -1,13 +1,15 @@
 # Team 3.14159
+- [Read first](#first)
 - [Main Branch](#main)
 - [Developer Branch](#dev)
 - [Individual Branch](#ind)
 - [Features Branches](#feature)
 - [How to Merge a Branch](#merge)
 
+## Read First <a id="first"></a>
+
 ## Main Branch <a id="main"></a>
-### About the Branch:
-The main branch is the main branch of the project. It is the branch that contains the latest stable version of the project. This branch should not be updated until it has gone through QA and tested all the features properly
+The main branch is the main branch of the project. It is the branch that contains the latest stable version of the project. This branch should not be updated until it has gone through QA and tested all the features properly.
 ## Developer Branch <a id="dev"></a>
 The name of the branch is `developer_branch` you can access this branch either thorugh vs code by switching the branch you are working on the bottom left corner of your screen, or through the command line with the following command `git checkout nameOfBranch`. 
 
@@ -25,6 +27,9 @@ When merging a branch make sure you run the following commands:
 - `git add .`
 - `git commit -m "your message goes here"`
 
-Once you have added the commit message you are ready to go ahead and merge the changes to the developer_branch. To do this, you are going to switch to the developer_brach (which is the branch you are merging the changes into) and use the following command `git merge feature_branch` this will merge the changes from the branch you are working on to the developer branch.
+Once you have added the commit message you are ready to go ahead and merge the changes to the developer_branch. To do this, you are going to switch to the developer_brach (which is the branch you are merging the changes into) and use the following command `git merge feature_branch` this will merge the changes from the branch you are working on to the developer branch. And don't forget to push the changes to github with `git push`
 
 Hopefully, this will go smooth and you won't have any merge comflicts. If you do, go to the [Merge Conflicts](#conflict) section.
+
+
+## Merge comfilcts <a id="merge"></a>
